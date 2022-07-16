@@ -1,88 +1,72 @@
-<!DOCTYPE html> <!-- what is the version of html. we are working with html 5.-->
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Suraj's Personal Site</title>
+  <title>My Site</title>
+  <!-- link to CSS page -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- apparently the logic is to put favicon.ico underneath css folder -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="shortcut icon" href=".ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <table>
-    <tr>
-    <td>
-      <img src="LinkedIn image.png" alt="Suraj profile picture" >
-    </td>
+  <div class="top-container">
+    <img class="top-cloud" src="cloud.png" alt="cloud-img" />
+    <h1>Suraj Janakiraman's Site</h1>
+    <h2>I am a <span class="pro">dev</span>eloper.</h2>
+    <img class="bottom-cloud" src="cloud.png" alt="cloud-img" />
+    <img src="mountain.png" alt="mountain-img" />
 
-    <td>
-      <h1>Suraj Janakiraman</h1>
-      <!-- emphasized Student at the as italics (using the <em> </em>and emphasized university of Texas
-     at Dallas as BOLD using <strong></strong>-->
-      <p> <em> Student at the <strong><a href="https://www.utdallas.edu/">University of Texas at Dallas</a></strong> </em>  </p>
-      <p>I am currently a Senior at school and I have just completed a Capstone Project. I have experience in the following languages: Python, R, Java, and C++. I am currently doing a Software Engineering Internship at Bank of America.  </p>
-    </td>
-    </tr>
+  </div>
+  <!-- Middle container includes my official details: -->
+  <div class="middle-container">
+    <div class="profile">
+      <img src="suraj.png" alt="suraj-img">
+      <h2>Hello.</h2>
+      <p>I am a Software Engineer Intern at Bank of America. I am a Senior Majoring in Computer Science at University of Texas at Dallas.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skills_image" src="software-development.jpg" alt="programming-img">
+        <h3>Software Development</h3>
+        <p>I have experience in software development. I have done both front-end development and back-end development. My favorite front-end technologies are HTML, CSS, JS, and Flutter. My favorite back-end technologies are Java, C++ and Python.</p>
+
+      </div>
+
+      <!-- new skill -->
+      <div class="skill-row">
+        <img class="skills_image" src="MachineLearning.png" alt="machine learning-img">
+        <h3>Machine Learning</h3>
+        <p>I also have experience in Machine Learning. I have programmed multiple regression and classification algorithms using R and Python. I am currently working on a Machine Learning Project using Splunk.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you want to learn more about me.</h3>
+      <p>Let's Talk.My contact information is listed below.</p>
+      <a class="btn" href="mailto:janakiramansuraj@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
 
-  </table>
-
-  <!-- horizontal tag-->
-  <hr />
-  <!-- subtitle eading which is heading level 3 in this case. And BOLD THE SUBHEADING -->
-  <h3><strong>Education</strong></h3>
-  <!-- <ul> does not list items in chronological order (i.e. Prince of Peace is not 1st item nor is University of Texas at Dallas the second item.)-->
-<ul>
-  <li>Prince of Peace Christian School  </li>
-  <li>The University of Texas at Dallas</li>
-</ul>
-
-<hr />
-<h3> Recent Work Experience</h3>
-
-<!-- creates a new table -->
-<table cellspacing="20">
-  <!-- table head element -->
-  <thead>
-    <th>Dates</th>
-    <th>Work</th>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>June 2022-August 2022</td>
-      <td>Software Engineer Intern Bank of America</td>
-    </tr>
-  </tbody>
-</table>
-<br />
-<hr />
-<h3>Skills</h3>
-<table cellspacing="15">
-<tr>
-  <td>Java  </td>
-  <td>⭐⭐⭐⭐</td>
-  <td>C++  </td>
-  <td>⭐⭐⭐</td>
-</tr>
-
-<tr>
-  <td>HTML </td>
-  <td>⭐⭐⭐⭐</td>
-  <td>CSS  </td>
-  <td>⭐⭐⭐</td>
-</tr>
-</table>
-<a href="work experience.html">Work Experience History</a>
-<!-- ordered list of hobbies inside of a new page.  -->
-<!--
-1. Tennis
-2. Music
-3. Video Games -->
-<a href="hobbies.html">My Hobbies</a>
-<a href="contactpage.html">Contacts Page</a>
-<a href="inputs.html">HTML Inputs</a>
-<a href="HtmlChallenge.html">HTMLChallenge</a>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://www.twitter.com/">Twitter</a>
+    <p>© 2022 Suraj Janakiraman.</p>
+  </div>
+  <p>Click any of the links if you want to look at the rest of my bio.</p>
+  <h3><a href="workexperience.html">Work Experience History</a></h3>
 </body>
 
-
 </html>
-<!-- Boiler plate code
