@@ -1,0 +1,149 @@
+.top-container{
+  background-color:#E4F9F5;
+  position:relative; /*approach is to make the position relative to it's original position */
+  /* so basically the top edge of the div is now 100 px lower than where it used to be*/
+    padding-top:100px;
+  /*width: 200px;
+  height: 200px;8*/
+  /*padding: 20px;*/
+  /*border: solid 10px;*/
+  /*margin:10px;*/
+}
+body{
+  margin:0;
+  text-align: center;
+font-family: 'Merriweather Sans', sans-serif;
+font-size:2em;
+  }
+h1{
+      margin: 50 auto 0 auto;
+      /*width 10% so no longer is the h1 10% of the width of entire page.
+      /*margin:0 auto 0 auto;*/
+font-family:'Sacramento', cursive;
+font-size: 5.625rem; /* we dynamically specify a font-size in scale with web page */
+color: #66BFBF;
+line-height: 4;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+    color: #66BFBF;
+
+}
+
+    h3{
+      font-family: 'Montserrat', sans-serif;
+      color: #11999E;
+      font-size: 1.5rem;
+    }
+
+
+    a{
+      color: #11999E;
+    }
+p{
+  font-family: 'Merriweather', sans-serif;
+  font-size:0.60em;
+  margin: 0 auto 0 auto;
+}
+
+.hello{
+  font-family: 'Merriweather', sans-serif;
+  font-size:0.60em;
+  margin: 0 auto 0 auto;
+  width: 25%;
+  line-height: 2;
+}
+.middle-container{
+  background-color:white;
+}
+.bottom-container{
+  margin-top:100px;
+  background-color:#66BFBF;
+
+}
+    .pro{
+      text-decoration: underline;
+    }
+
+    /*now we make both bottom and top clouds absolute with respect to the h1 and div tags.*/
+    .bottom-cloud{
+      position:absolute;
+    }
+
+    .top-cloud{
+      position:absolute;
+      right: 300px;
+      top:50px;
+    }
+
+.skill-row{
+  width:50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+
+.skills_image{
+  width:25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.skills_image2{
+  width:25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.profile_img{
+  width: 25%;
+
+  margin: 100px auto 0 auto;
+}
+
+.btn {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.cpright{
+  font-size: 0.45em;
+  color:white;
+  padding-top:30px;
+
+}
+
+.talk{
+  padding-bottom:50px;
+}
+
+.footer-link{
+  position: relative;
+  margin:0 50px 0 0;
+  font-size:0.5em;
+  text-decoration: none;
+}
